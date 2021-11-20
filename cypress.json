@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://miro.com/signup/",
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "env": {
+    "MAILOSAUR_API_KEY": "zsGyaKGLgnMw5RkE"
+  },
+  "projectId": "8hdriu"
+}

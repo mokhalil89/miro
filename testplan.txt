@@ -1,0 +1,92 @@
+Positive;
+1: Test case for check submit button and the checkboxes and show mandatory fields
+Test Scenario:
+#.go to application page, should succeed
+#.Click on all buttons and checkboxs and see if they are working, should succeed
+
+
+2: Test case for check all fields by entering the data and validating.
+Test Scenario:
+#. go to application page, should succeed
+#. enter all mandatory and optional fields and click signup, should succeed
+#. check your email text should appear, should succeed
+#. check Confirmation code sent to email successfully, should succeed
+#. copy and paste the Confirmation code in the 6-Digit code Txt Field , should succeed
+
+
+3: Test case for check all optional fields by not entering the data
+Test Scenario:
+#. go to application page, should succeed
+#. check your email text should appear, should succeed
+
+
+4. Test case check by entering an alphanumeric password between 8-16 characters, special characters
+Test Scenario:
+#. go to application page, should succeed
+#. enter an alphanumeric password between 8-16 characters and having a special character and click signup, should succeed
+#. check your email text should appear, succeed
+
+
+5.Test case check weak, good & great password
+Test Scenario:
+#. go to application page, should succeed
+#. enter different passwords and verify the strength of the password label, should succeed
+
+6.Test case check other signup options on the web page
+#. go to application page, should succeed
+#. check signup icons and verify, should succeed
+
+7.Test case check redirecting to terms page
+#. go to application page, should succeed
+#. click on Terms link , should succeed
+#. terms page opens, should succeed
+
+8.Test case check redirecting to privacy policy page
+#. go to application page, should succeed
+#. click on privacy policy link , should succeed
+#. privacy policy page opens, should succeed
+
+
+Negative; 
+9: Test case for testing invalid emails without (@), (.) , without domain, without alphabets before @
+Test Scenario:
+#. go to application page, should succeed
+#. enter invalid emails and click signup, should fail
+#. show email validation error message, should succeed 
+
+
+10: Test case for test for valid but already existing email address
+Test Scenario:
+#. go to application page, should succeed
+#. enter valid existing email and click signup, should fail
+#. show validation error message, should succeed 
+
+
+11: Test case for check the password for less value than minimum
+Test Scenario:
+#. go to application page, should succeed
+#. enter a password with less than 8 characters and click signup, should fail
+#. show validation error message, should succeed 
+
+
+12: Test case for check all required fields by not entering the Data.
+Test Scenario:
+#.don't enter any value in mandatory field and click on signup, should fail
+#. show validation error message, should succeed 
+
+13: Test case for entering all required fields and not entering name.
+#. enter valid data in the mandatory fields except the name field keep it empty then click submit, should fail
+#. show validation error message, should succeed 
+
+14: Test case for entering all required fields and not entering email.
+#. enter valid data in the mandatory fields except the email field keep it empty then click submit, should fail
+#. show validation error message, should succeed 
+
+15: Test case for entering all required fields and not entering password.
+#. enter valid data in the mandatory fields except the password field keep it empty then click submit, should fail
+#. show validation error message, should succeed 
+
+16: Test case for entering all required fields and not clicking terms checkbox.
+#. enter valid data in the mandatory fields, don't click the terms and conditions checkbox, should fail
+#. show validation error message, should succeed 
+
